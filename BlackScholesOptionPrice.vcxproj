@@ -214,6 +214,7 @@
     <None Include="res\BlackScholesOptionPrice.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Misc\Black-Scholes.PNG" />
     <Image Include="res\BlackScholesOptionPrice.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

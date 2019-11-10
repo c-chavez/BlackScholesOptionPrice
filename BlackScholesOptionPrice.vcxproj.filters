@@ -66,5 +66,8 @@
     <Image Include="res\BlackScholesOptionPrice.ico">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="Misc\Black-Scholes.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
