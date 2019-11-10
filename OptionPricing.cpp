@@ -46,8 +46,6 @@ double OptionPricing::PutOptionPrice()
 	double d1 = OptionPricing::d1();
 	double d2 = OptionPricing::d2();
 
-	// calculate option price
-	//return normalCDF(d1) * m_assetPrice - normalCDF(d2) * m_strikePrice * exp(-m_rate * (m_maturity));
 	return m_strikePrice * exp(-m_rate * m_maturity) * normalCDF(-d2) - m_assetPrice * normalCDF(-d1);
 }
 
