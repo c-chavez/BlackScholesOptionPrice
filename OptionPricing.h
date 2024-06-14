@@ -22,4 +22,4 @@ private:
 		double d1();
 		double d2();
 };
-
+//END CLASS
