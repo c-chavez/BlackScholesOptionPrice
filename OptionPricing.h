@@ -1,3 +1,4 @@
+//A comment
 #pragma once
 
 #define NEAR_ZERO 1.e-14
